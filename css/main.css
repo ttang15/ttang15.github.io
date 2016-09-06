@@ -1,0 +1,55 @@
+body{
+	background-color:#00A8E8;
+}
+
+p{
+font-family: 'Lalezar', cursive;
+}
+
+#about-me-wrap {
+    background-color: #fff;
+    padding: 50px;
+    width: 60%;
+    margin: 100px auto;
+}
+#profile-wrap {
+    width: 40%;
+    float: left;
+    margin-right: 10%;
+}
+#bio-wrap {
+    width: 50%;
+    float: left;
+}
+.clear{clear:both;}
+h1 {
+    font-size: 30px;
+    color: #000;
+    font-weight: 700;
+    letter-spacing: .1em;
+    border-bottom: 5px dashed yellow;
+    padding-bottom: 10px;
+}
+.profile-social-links {
+    margin: 5px 0;
+    padding: 0;
+}
+
+.profile-social-links li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+@media only screen and (max-width: 767px) {
+    #profile-wrap {
+    width: 100%!important;
+    float:none!important;
+    margin-right: 0!important;
+}
+
+    #bio-wrap {
+    width: 100%!important;
+    float:none!important;
+    margin-top: 0!important;
+}
